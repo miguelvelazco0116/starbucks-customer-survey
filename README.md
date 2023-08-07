@@ -10,7 +10,7 @@
 - [ML models](#ml-models)
    + [building the model](loyalty_drivers.ipynb)
 - [Most important features](#most-important-features)
-   + [building the model](loyalty_drivers.ipynb)
+   + [building SHAP values](loyalty_drivers.ipynb)
 
 
 # Context
@@ -89,6 +89,9 @@ To identify the most crucial features for our project, we will employ an explana
 Before delving further, let's explore the concept behind SHAP values. Essentially, **SHAP** values utilize a game-theoretic approach to explain the output of any machine learning model. This method offers valuable insights into the contribution of each feature towards the final predictions, shedding light on which factors hold the most significant influence.
 
 By leveraging **SHAP values**, we can gain a comprehensive understanding of the model's decision-making process and identify the key drivers impacting our project's outcomes. This will enable us to make well-informed decisions and allocate our resources strategically for maximizing the desired results.
+
+
+![game_theory.jpg](game_theory.jpg)
 
 ```python
 
