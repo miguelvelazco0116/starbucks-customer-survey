@@ -4,7 +4,7 @@
 ![loyalty.jpg](loyalty.jpg)
 
 
-- [Context](#Context)
+- [Context](#context)
 - [Introduction](#Introduction)
    + [Data exploring](data_explorer.ipynb)
 - [ML models](#ML-models)
