@@ -6,7 +6,7 @@
 
 - [Context](#Context)
 - [Introduction](#Introduction)
- - [Data exploring](data_explorer.ipynb)
+   - [Data exploring](data_explorer.ipynb)
 
 
 # Context
