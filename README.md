@@ -5,9 +5,9 @@
 
 
 - [Context](#context)
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
    + [Data exploring](data_explorer.ipynb)
-- [ML models](#ML-models)
+- [ML models](#ml-models)
    + [building the model](loyalty_drivers.ipynb)
 
 
