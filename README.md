@@ -6,7 +6,9 @@
 
 - [Context](#Context)
 - [Introduction](#Introduction)
-   - [Data exploring](data_explorer.ipynb)
+   + [Data exploring](data_explorer.ipynb)
+- [ML models](#ML-models)
+   + [building the model](loyalty_drivers.ipynb)
 
 
 # Context
@@ -21,7 +23,32 @@ By leveraging this data, we aim to provide **insights** into the impact of **inv
 # Introduction
 
 
+In the upcoming section, it is evident that a significant portion of our client base comprises young females who are either employed or students. Based on this valuable insight, our target audience should be tailored accordingly, and promotional campaigns should align with their preferences. However, several essential questions arise:
+
+  - How should we strategically allocate the budget to achieve maximum impact?
+  - Where should our primary focus lie to ensure the effectiveness of our campaigns?
+  - If multiple factors come into play, what would be the optimal approach to budget allocation?
+
+By addressing these questions thoughtfully, we can optimize our budget allocation and create impactful campaigns that resonate with our target audience, ultimately driving stronger engagement and loyalty among our customers.
+
+
+![overview_clients.png](overview_clients.png)
+
+
+# ML models
+
+
+Having comprehended the project's context and scope, which revolves around defining the optimal strategy to enhance loyalty, we are now prepared to initiate the modeling process. However, before proceeding further, it is imperative to assess the importance of the features that we intend to evaluate.
+
+Please note that there are additional features to consider, but for the purpose of this example, we will focus on essential aspects such as product quality, price rate, service rate, and other key factors that significantly impact customer loyalty. This preliminary evaluation will provide a solid foundation for our subsequent modeling efforts and enable us to make data-driven decisions to achieve our loyalty enhancement goals.
+
+
 ![radar.png](radar.png)
+
+
+As observed in the preceding picture, the **price** feature received the lowest rating, while the **promos** and **service** aspects garnered positive feedback. Based on this information, I am inclined to consider a strategy that emphasizes improving the perception of **pricing** while acknowledging the positive response to promotional offers and service.
+
+Additionally, given the (hyphotesis) high **elasticity** in the market, we have an opportunity to leverage **pricing** tactics effectively. By addressing the price perception and offering targeted promotions, we can foster stronger customer engagement and loyalty, positioning our brand more competitively within the market.
 
 ```python
 
