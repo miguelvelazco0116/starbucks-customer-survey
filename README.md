@@ -151,3 +151,14 @@ To find an answer, we have adopted the approach of using **Diverse Counterfactua
 
 
 This technique allows us to create various scenarios where regular customers transform into loyal clients. By exploring these different scenarios, we can gain valuable insights into the factors and strategies that can genuinely drive customer loyalty and inform our future decision-making process.
+
+In the following example, we attempt to transform a regular customer into a loyal one through three different scenarios. However, it becomes evident that in order to achieve this transformation, it is essential to reduce the perceived importance of the variables "product" and "price."
+
+This is reminiscent of the belief that **higher prices lead to increased customer loyalty**, suggesting an **inelastic market** phenomenon.
+
+
+<img src="dice_example.png" alt="dice_example" width="600">
+
+```python
+
+```
