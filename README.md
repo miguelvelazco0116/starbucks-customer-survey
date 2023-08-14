@@ -13,8 +13,8 @@
    + [building SHAP values](loyalty_drivers.ipynb)
 - [Budget optimization](#budget-optimization)
    + [building the optimization model](optimizing_loyalty.ipynb)
-- [What if...?](#what_if?)
-   + [What if...?](optimizing_loyalty.ipynb)
+- [What if...?](#what-if?)
+   + [DiCE model](optimizing_loyalty.ipynb)
 
 
 # Context
@@ -147,7 +147,7 @@ Now, the critical question is:
 To find an answer, we have adopted the approach of using **Diverse Counterfactual Explanations(DiCE).** 
 
 
-<img src="optimization_output.png" alt="optimization_output" width="600">
+<img src="dice.gif" alt="dice" width="600">
 
 
 This technique allows us to create various scenarios where regular customers transform into loyal clients. By exploring these different scenarios, we can gain valuable insights into the factors and strategies that can genuinely drive customer loyalty and inform our future decision-making process.
