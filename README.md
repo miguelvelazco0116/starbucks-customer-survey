@@ -11,7 +11,7 @@
    + [building the model](loyalty_drivers.ipynb)
 - [Most important features](#most-important-features)
    + [building SHAP values](loyalty_drivers.ipynb)
-- [Budget optimization](#Budget_optimization)
+- [Budget optimization](#budget_optimization)
    + [building the optimization model](optimizing_loyalty.ipynb)
 
 
