@@ -110,6 +110,25 @@ This unexpected finding warrants further investigation to better comprehend the 
 
 # Budget optimization
 
+
+In the subsequent phase, our focus is on refining the strategy for budget allocation. To achieve this, we will employ linear programming to formulate the problem as a system of equations. Our objective is to determine the most optimal distribution of the budget. For this step, we assume the following cost for each feature:
+
+ - *ambiance:* **100 usd**
+ - *price:* **330 usd**
+ - *product:* **310 usd**
+ - *promo:* **160 usd**
+ - *service:* **260 usd**
+ - *wifi:* **100 usd**
+ - *choose:* **460 usd**
+ 
+Please take note that we are utilizing the glpk package for this optimization process.
+
+
+<img src="optimization_output.png" alt="optimization_output" width="600">
+
+
+Ultimately, our model suggests that the optimal approach involves enhancing the perception of the ambiance. Additionally, we aim to elevate the perceptions of price, product, and promotional aspects, as these features play a pivotal role according to our model's analysis.
+
 ```python
 
 ```
