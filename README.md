@@ -13,7 +13,7 @@
    + [building SHAP values](loyalty_drivers.ipynb)
 - [Budget optimization](#budget-optimization)
    + [building the optimization model](optimizing_loyalty.ipynb)
-- [What if?](#what-if?)
+- [What if scenario](#what-if-scenario)
    + [DiCE model](optimizing_loyalty.ipynb)
 
 
@@ -136,7 +136,7 @@ After applying our optimization to the original data, we observe a decrease in l
 Note: It's important to consider that our dataset has been reduced, making it slightly more challenging to identify patterns.
 
 
-# What if?
+# What if scenario
 
 
 We devised what we believed to be the best strategy for increasing loyalty. However, contrary to our initial expectations, the implementation of this solution resulted in a 66% decrease in loyalty, which is concerning.
