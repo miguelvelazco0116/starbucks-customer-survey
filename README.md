@@ -13,6 +13,8 @@
    + [building SHAP values](loyalty_drivers.ipynb)
 - [Budget optimization](#budget-optimization)
    + [building the optimization model](optimizing_loyalty.ipynb)
+- [What if...?](#what_if?)
+   + [What if...?](optimizing_loyalty.ipynb)
 
 
 # Context
@@ -129,6 +131,23 @@ Please take note that we are utilizing the glpk package for this optimization pr
 
 Ultimately, our model suggests that the optimal approach involves enhancing the perception of the ambiance. Additionally, we aim to elevate the perceptions of price, product, and promotional aspects, as these features play a pivotal role according to our model's analysis.
 
-```python
+After applying our optimization to the original data, we observe a decrease in loyalty by 66%. In order to understand this outcome, it is crucial to examine the inverse relationship between loyalty and price.
 
-```
+Note: It's important to consider that our dataset has been reduced, making it slightly more challenging to identify patterns.
+
+
+# What if?
+
+
+We devised what we believed to be the best strategy for increasing loyalty. However, contrary to our initial expectations, the implementation of this solution resulted in a 66% decrease in loyalty, which is concerning.
+
+Now, the critical question is:
+- What steps should we take to effectively boost loyalty?
+
+To find an answer, we have adopted the approach of using **Diverse Counterfactual Explanations(DiCE).** 
+
+
+<img src="optimization_output.png" alt="optimization_output" width="600">
+
+
+This technique allows us to create various scenarios where regular customers transform into loyal clients. By exploring these different scenarios, we can gain valuable insights into the factors and strategies that can genuinely drive customer loyalty and inform our future decision-making process.
