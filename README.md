@@ -15,6 +15,7 @@
    + [building the optimization model](optimizing_loyalty.ipynb)
 - [What if scenario](#what-if-scenario)
    + [DiCE model](optimizing_loyalty.ipynb)
+- [Findings](#findings)
 
 
 # Context
@@ -152,13 +153,28 @@ To find an answer, we have adopted the approach of using **Diverse Counterfactua
 
 This technique allows us to create various scenarios where regular customers transform into loyal clients. By exploring these different scenarios, we can gain valuable insights into the factors and strategies that can genuinely drive customer loyalty and inform our future decision-making process.
 
-In the following example, we attempt to transform a regular customer into a loyal one through three different scenarios. However, it becomes evident that in order to achieve this transformation, it is essential to reduce the perceived importance of the variables "product" and "price."
+In the following example, we attempt to transform a regular customer into a loyal one through three different scenarios. However, it becomes evident that in order to achieve this transformation, it is essential to reduce the perceived importance of the variables **"product"** and **"price."**
 
 This is reminiscent of the belief that **higher prices lead to increased customer loyalty**, suggesting an **inelastic market** phenomenon.
 
 
 <img src="dice_example.png" alt="dice_example" width="600">
 
-```python
 
-```
+# Findings
+
+
+In conclusion, our analysis reveals an unexpected pattern of decreasing feature perception among potential loyal clients. This counterintuitive finding prompts us to explore additional factors, such as proximity to the coffee shop and a potential reevaluation of the criteria for identifying loyal clients. It appears that certain crucial aspects like **pricing** and product offerings may not be resonating well with the loyal clientele. However, a noteworthy insight emerges from our study—namely, the significant impact of the site's ambiance on customer loyalty.
+
+An intriguing factor to take into account is **pricing**. Based on our analysis, there are two significant aspects to address and take action upon:
+
+- Firstly, the significance of **pricing** becomes evident, presenting various opportunities to cultivate greater customer loyalty, amplify market share, and concurrently boost **revenue**. For instance, we could introduce a range of promotions categorized as basic, best value, and premium, strategically enhancing our market presence and financial outcomes.
+
+
+<img src="package.png" alt="package" width="500">
+
+
+- The second notable revelation is our hypothesis that *loyal customers exhibit a consistent demand even when* ***prices*** *are higher*. This suggests an **inelastic market** scenario where **pricing** adjustments might not significantly impact sales. To optimize this approach, we could consider implementing **psychological pricing strategies**, such as setting prices just below whole numbers (e.g., **$9.99**), a technique proven to enhance consumer appeal and encourage purchases.
+
+
+<img src="elasticity.jpg" alt="elasticity" width="500">
